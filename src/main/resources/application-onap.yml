@@ -1,0 +1,11 @@
+apiVersion: 1.0.0
+keycloakApiUserUrl: http://10.0.5.35:30955/keycloak/create
+spring:
+    data:
+        mongodb:
+            database: BMP_APIACCESS
+            host: 10.0.5.36
+            port: 27017
+server:
+    connection-timeout: 5000
+    port: 9026
